@@ -10,7 +10,7 @@ public class pcce2 {
         int a = sc.nextInt();
         int c = sc.nextInt();
 
-        int b_square = c - a;
+        int b_square = c*c - a*a;
 
         System.out.println(b_square);
     }
